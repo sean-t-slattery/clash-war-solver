@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clash-war-solver"
+version = "0.1.0"
+description = "Local, reproducible war-planning research workbench"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi==0.119.1", "uvicorn==0.38.0", "pydantic==2.12.3",
+  "numpy==2.2.6", "scipy==1.16.2", "opencv-python-headless==4.12.0.88",
+  "python-multipart==0.0.20", "httpx==0.28.1", "psutil==7.1.1"
+]
+
+[project.optional-dependencies]
+dev = ["pytest==8.4.2"]
+
+[project.scripts]
+war-solver = "backend.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["backend*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

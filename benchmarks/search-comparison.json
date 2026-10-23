@@ -1,0 +1,1007 @@
+{
+  "fixture": "synthetic-v1 / reduced army",
+  "interpretation": "Two seeds only. Random and mutation receive equal candidate counts; the cardinal baseline uses four. Not evidence of real-game superiority or parallel scaling.",
+  "results": [
+    {
+      "seed": 61,
+      "algorithm": "cardinal_heuristic",
+      "candidates": 4,
+      "search_simulations": 16,
+      "search_seconds": 1.5685389999998733,
+      "search": {
+        "samples": 4,
+        "successes": 2,
+        "three_star_rate": 0.5,
+        "wilson_interval": [
+          0.1500389891521544,
+          0.8499610108478456
+        ],
+        "expected_stars": 2.0,
+        "expected_destruction": 79.54545454545455,
+        "timeout_rate": 0.0,
+        "catastrophic_rate": 0.25,
+        "lower_tail_stars": 0.0,
+        "mean_duration": 66.625,
+        "failure_causes": {
+          "success": 2,
+          "army_destroyed": 2
+        },
+        "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence.",
+        "by_defender": {
+          "air": {
+            "samples": 1,
+            "successes": 1,
+            "three_star_rate": 1.0,
+            "wilson_interval": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "expected_stars": 3.0,
+            "expected_destruction": 100.0,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.0,
+            "lower_tail_stars": 3.0,
+            "mean_duration": 70.0,
+            "failure_causes": {
+              "success": 1
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          },
+          "ground": {
+            "samples": 2,
+            "successes": 0,
+            "three_star_rate": 0.0,
+            "wilson_interval": [
+              0,
+              0.6576197724933345
+            ],
+            "expected_stars": 1.0,
+            "expected_destruction": 59.09090909090909,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.5,
+            "lower_tail_stars": 0.0,
+            "mean_duration": 58.375,
+            "failure_causes": {
+              "army_destroyed": 2
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          },
+          "none": {
+            "samples": 1,
+            "successes": 1,
+            "three_star_rate": 1.0,
+            "wilson_interval": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "expected_stars": 3.0,
+            "expected_destruction": 100.0,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.0,
+            "lower_tail_stars": 3.0,
+            "mean_duration": 79.75,
+            "failure_causes": {
+              "success": 1
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          }
+        }
+      },
+      "heldout": {
+        "samples": 12,
+        "successes": 5,
+        "three_star_rate": 0.4166666666666667,
+        "wilson_interval": [
+          0.19326031365876087,
+          0.6804886874504443
+        ],
+        "expected_stars": 2.0,
+        "expected_destruction": 75.0,
+        "timeout_rate": 0.0,
+        "catastrophic_rate": 0.16666666666666666,
+        "lower_tail_stars": 0.0,
+        "mean_duration": 71.02083333333333,
+        "failure_causes": {
+          "army_destroyed": 7,
+          "success": 5
+        },
+        "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence.",
+        "by_defender": {
+          "air": {
+            "samples": 4,
+            "successes": 1,
+            "three_star_rate": 0.25,
+            "wilson_interval": [
+              0.04558726080970238,
+              0.6993581574175893
+            ],
+            "expected_stars": 1.5,
+            "expected_destruction": 59.09090909090909,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.25,
+            "lower_tail_stars": 0.0,
+            "mean_duration": 65.6875,
+            "failure_causes": {
+              "army_destroyed": 3,
+              "success": 1
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          },
+          "ground": {
+            "samples": 6,
+            "successes": 3,
+            "three_star_rate": 0.5,
+            "wilson_interval": [
+              0.18761630648265576,
+              0.8123836935173443
+            ],
+            "expected_stars": 2.1666666666666665,
+            "expected_destruction": 81.81818181818183,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.16666666666666666,
+            "lower_tail_stars": 0.0,
+            "mean_duration": 72.70833333333333,
+            "failure_causes": {
+              "army_destroyed": 3,
+              "success": 3
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          },
+          "none": {
+            "samples": 2,
+            "successes": 1,
+            "three_star_rate": 0.5,
+            "wilson_interval": [
+              0.09453120573423457,
+              0.9054687942657654
+            ],
+            "expected_stars": 2.5,
+            "expected_destruction": 86.36363636363637,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.0,
+            "lower_tail_stars": 2.0,
+            "mean_duration": 76.625,
+            "failure_causes": {
+              "success": 1,
+              "army_destroyed": 1
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          }
+        }
+      }
+    },
+    {
+      "seed": 61,
+      "algorithm": "random_proposals",
+      "candidates": 12,
+      "search_simulations": 48,
+      "search_seconds": 5.775653899996541,
+      "search": {
+        "samples": 4,
+        "successes": 3,
+        "three_star_rate": 0.75,
+        "wilson_interval": [
+          0.30064184258241056,
+          0.9544127391902976
+        ],
+        "expected_stars": 2.75,
+        "expected_destruction": 93.18181818181819,
+        "timeout_rate": 0.0,
+        "catastrophic_rate": 0.0,
+        "lower_tail_stars": 2.0,
+        "mean_duration": 65.8125,
+        "failure_causes": {
+          "success": 3,
+          "army_destroyed": 1
+        },
+        "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence.",
+        "by_defender": {
+          "air": {
+            "samples": 1,
+            "successes": 1,
+            "three_star_rate": 1.0,
+            "wilson_interval": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "expected_stars": 3.0,
+            "expected_destruction": 100.0,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.0,
+            "lower_tail_stars": 3.0,
+            "mean_duration": 64.25,
+            "failure_causes": {
+              "success": 1
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          },
+          "ground": {
+            "samples": 2,
+            "successes": 1,
+            "three_star_rate": 0.5,
+            "wilson_interval": [
+              0.09453120573423457,
+              0.9054687942657654
+            ],
+            "expected_stars": 2.5,
+            "expected_destruction": 86.36363636363637,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.0,
+            "lower_tail_stars": 2.0,
+            "mean_duration": 69.0,
+            "failure_causes": {
+              "army_destroyed": 1,
+              "success": 1
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          },
+          "none": {
+            "samples": 1,
+            "successes": 1,
+            "three_star_rate": 1.0,
+            "wilson_interval": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "expected_stars": 3.0,
+            "expected_destruction": 100.0,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.0,
+            "lower_tail_stars": 3.0,
+            "mean_duration": 61.0,
+            "failure_causes": {
+              "success": 1
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          }
+        }
+      },
+      "heldout": {
+        "samples": 12,
+        "successes": 7,
+        "three_star_rate": 0.5833333333333334,
+        "wilson_interval": [
+          0.3195113125495559,
+          0.8067396863412393
+        ],
+        "expected_stars": 2.4166666666666665,
+        "expected_destruction": 87.87878787878788,
+        "timeout_rate": 0.0,
+        "catastrophic_rate": 0.08333333333333333,
+        "lower_tail_stars": 1.0,
+        "mean_duration": 64.16666666666667,
+        "failure_causes": {
+          "success": 7,
+          "army_destroyed": 5
+        },
+        "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence.",
+        "by_defender": {
+          "air": {
+            "samples": 4,
+            "successes": 2,
+            "three_star_rate": 0.5,
+            "wilson_interval": [
+              0.1500389891521544,
+              0.8499610108478456
+            ],
+            "expected_stars": 2.5,
+            "expected_destruction": 93.18181818181819,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.0,
+            "lower_tail_stars": 2.0,
+            "mean_duration": 60.375,
+            "failure_causes": {
+              "success": 2,
+              "army_destroyed": 2
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          },
+          "ground": {
+            "samples": 6,
+            "successes": 3,
+            "three_star_rate": 0.5,
+            "wilson_interval": [
+              0.18761630648265576,
+              0.8123836935173443
+            ],
+            "expected_stars": 2.1666666666666665,
+            "expected_destruction": 80.3030303030303,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.16666666666666666,
+            "lower_tail_stars": 0.0,
+            "mean_duration": 67.41666666666667,
+            "failure_causes": {
+              "success": 3,
+              "army_destroyed": 3
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          },
+          "none": {
+            "samples": 2,
+            "successes": 2,
+            "three_star_rate": 1.0,
+            "wilson_interval": [
+              0.34238022750666547,
+              1
+            ],
+            "expected_stars": 3.0,
+            "expected_destruction": 100.0,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.0,
+            "lower_tail_stars": 3.0,
+            "mean_duration": 62.0,
+            "failure_causes": {
+              "success": 2
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          }
+        }
+      }
+    },
+    {
+      "seed": 61,
+      "algorithm": "incumbent_mutation",
+      "candidates": 12,
+      "search_simulations": 48,
+      "search_seconds": 5.713957699976163,
+      "search": {
+        "samples": 4,
+        "successes": 3,
+        "three_star_rate": 0.75,
+        "wilson_interval": [
+          0.30064184258241056,
+          0.9544127391902976
+        ],
+        "expected_stars": 2.75,
+        "expected_destruction": 88.63636363636364,
+        "timeout_rate": 0.0,
+        "catastrophic_rate": 0.0,
+        "lower_tail_stars": 2.0,
+        "mean_duration": 72.5625,
+        "failure_causes": {
+          "success": 3,
+          "army_destroyed": 1
+        },
+        "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence.",
+        "by_defender": {
+          "air": {
+            "samples": 1,
+            "successes": 1,
+            "three_star_rate": 1.0,
+            "wilson_interval": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "expected_stars": 3.0,
+            "expected_destruction": 100.0,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.0,
+            "lower_tail_stars": 3.0,
+            "mean_duration": 64.75,
+            "failure_causes": {
+              "success": 1
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          },
+          "ground": {
+            "samples": 2,
+            "successes": 1,
+            "three_star_rate": 0.5,
+            "wilson_interval": [
+              0.09453120573423457,
+              0.9054687942657654
+            ],
+            "expected_stars": 2.5,
+            "expected_destruction": 77.27272727272728,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.0,
+            "lower_tail_stars": 2.0,
+            "mean_duration": 82.0,
+            "failure_causes": {
+              "army_destroyed": 1,
+              "success": 1
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          },
+          "none": {
+            "samples": 1,
+            "successes": 1,
+            "three_star_rate": 1.0,
+            "wilson_interval": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "expected_stars": 3.0,
+            "expected_destruction": 100.0,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.0,
+            "lower_tail_stars": 3.0,
+            "mean_duration": 61.5,
+            "failure_causes": {
+              "success": 1
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          }
+        }
+      },
+      "heldout": {
+        "samples": 12,
+        "successes": 8,
+        "three_star_rate": 0.6666666666666666,
+        "wilson_interval": [
+          0.39062208887280625,
+          0.8618799089087836
+        ],
+        "expected_stars": 2.6666666666666665,
+        "expected_destruction": 91.66666666666667,
+        "timeout_rate": 0.0,
+        "catastrophic_rate": 0.0,
+        "lower_tail_stars": 2.0,
+        "mean_duration": 76.5,
+        "failure_causes": {
+          "success": 8,
+          "army_destroyed": 4
+        },
+        "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence.",
+        "by_defender": {
+          "air": {
+            "samples": 4,
+            "successes": 4,
+            "three_star_rate": 1.0,
+            "wilson_interval": [
+              0.5101091635454165,
+              1
+            ],
+            "expected_stars": 3.0,
+            "expected_destruction": 100.0,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.0,
+            "lower_tail_stars": 3.0,
+            "mean_duration": 67.0625,
+            "failure_causes": {
+              "success": 4
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          },
+          "ground": {
+            "samples": 6,
+            "successes": 2,
+            "three_star_rate": 0.3333333333333333,
+            "wilson_interval": [
+              0.09677141110578363,
+              0.7000066848616004
+            ],
+            "expected_stars": 2.3333333333333335,
+            "expected_destruction": 83.33333333333333,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.0,
+            "lower_tail_stars": 2.0,
+            "mean_duration": 77.375,
+            "failure_causes": {
+              "army_destroyed": 4,
+              "success": 2
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          },
+          "none": {
+            "samples": 2,
+            "successes": 2,
+            "three_star_rate": 1.0,
+            "wilson_interval": [
+              0.34238022750666547,
+              1
+            ],
+            "expected_stars": 3.0,
+            "expected_destruction": 100.0,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.0,
+            "lower_tail_stars": 3.0,
+            "mean_duration": 92.75,
+            "failure_causes": {
+              "success": 2
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          }
+        }
+      }
+    },
+    {
+      "seed": 203,
+      "algorithm": "cardinal_heuristic",
+      "candidates": 4,
+      "search_simulations": 16,
+      "search_seconds": 1.4033364000206348,
+      "search": {
+        "samples": 4,
+        "successes": 0,
+        "three_star_rate": 0.0,
+        "wilson_interval": [
+          0,
+          0.48989083645458353
+        ],
+        "expected_stars": 1.25,
+        "expected_destruction": 59.09090909090909,
+        "timeout_rate": 0.0,
+        "catastrophic_rate": 0.25,
+        "lower_tail_stars": 0.0,
+        "mean_duration": 73.4375,
+        "failure_causes": {
+          "army_destroyed": 4
+        },
+        "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence.",
+        "by_defender": {
+          "air": {
+            "samples": 1,
+            "successes": 0,
+            "three_star_rate": 0.0,
+            "wilson_interval": [
+              0,
+              0.7934506856227534
+            ],
+            "expected_stars": 2.0,
+            "expected_destruction": 81.81818181818181,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.0,
+            "lower_tail_stars": 2.0,
+            "mean_duration": 115.75,
+            "failure_causes": {
+              "army_destroyed": 1
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          },
+          "ground": {
+            "samples": 1,
+            "successes": 0,
+            "three_star_rate": 0.0,
+            "wilson_interval": [
+              0,
+              0.7934506856227534
+            ],
+            "expected_stars": 0.0,
+            "expected_destruction": 36.36363636363637,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 1.0,
+            "lower_tail_stars": 0.0,
+            "mean_duration": 51.75,
+            "failure_causes": {
+              "army_destroyed": 1
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          },
+          "none": {
+            "samples": 2,
+            "successes": 0,
+            "three_star_rate": 0.0,
+            "wilson_interval": [
+              0,
+              0.6576197724933345
+            ],
+            "expected_stars": 1.5,
+            "expected_destruction": 59.09090909090909,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.0,
+            "lower_tail_stars": 1.0,
+            "mean_duration": 63.125,
+            "failure_causes": {
+              "army_destroyed": 2
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          }
+        }
+      },
+      "heldout": {
+        "samples": 12,
+        "successes": 5,
+        "three_star_rate": 0.4166666666666667,
+        "wilson_interval": [
+          0.19326031365876087,
+          0.6804886874504443
+        ],
+        "expected_stars": 2.0833333333333335,
+        "expected_destruction": 74.24242424242424,
+        "timeout_rate": 0.0,
+        "catastrophic_rate": 0.08333333333333333,
+        "lower_tail_stars": 0.5,
+        "mean_duration": 69.3125,
+        "failure_causes": {
+          "army_destroyed": 7,
+          "success": 5
+        },
+        "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence.",
+        "by_defender": {
+          "air": {
+            "samples": 6,
+            "successes": 3,
+            "three_star_rate": 0.5,
+            "wilson_interval": [
+              0.18761630648265576,
+              0.8123836935173443
+            ],
+            "expected_stars": 2.0,
+            "expected_destruction": 75.75757575757576,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.16666666666666666,
+            "lower_tail_stars": 0.0,
+            "mean_duration": 71.125,
+            "failure_causes": {
+              "army_destroyed": 3,
+              "success": 3
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          },
+          "ground": {
+            "samples": 2,
+            "successes": 0,
+            "three_star_rate": 0.0,
+            "wilson_interval": [
+              0,
+              0.6576197724933345
+            ],
+            "expected_stars": 2.0,
+            "expected_destruction": 68.18181818181819,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.0,
+            "lower_tail_stars": 2.0,
+            "mean_duration": 78.75,
+            "failure_causes": {
+              "army_destroyed": 2
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          },
+          "none": {
+            "samples": 4,
+            "successes": 2,
+            "three_star_rate": 0.5,
+            "wilson_interval": [
+              0.1500389891521544,
+              0.8499610108478456
+            ],
+            "expected_stars": 2.25,
+            "expected_destruction": 75.0,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.0,
+            "lower_tail_stars": 1.0,
+            "mean_duration": 61.875,
+            "failure_causes": {
+              "army_destroyed": 2,
+              "success": 2
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          }
+        }
+      }
+    },
+    {
+      "seed": 203,
+      "algorithm": "random_proposals",
+      "candidates": 12,
+      "search_simulations": 48,
+      "search_seconds": 5.666183599998476,
+      "search": {
+        "samples": 4,
+        "successes": 4,
+        "three_star_rate": 1.0,
+        "wilson_interval": [
+          0.5101091635454165,
+          1
+        ],
+        "expected_stars": 3.0,
+        "expected_destruction": 100.0,
+        "timeout_rate": 0.0,
+        "catastrophic_rate": 0.0,
+        "lower_tail_stars": 3.0,
+        "mean_duration": 63.75,
+        "failure_causes": {
+          "success": 4
+        },
+        "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence.",
+        "by_defender": {
+          "air": {
+            "samples": 1,
+            "successes": 1,
+            "three_star_rate": 1.0,
+            "wilson_interval": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "expected_stars": 3.0,
+            "expected_destruction": 100.0,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.0,
+            "lower_tail_stars": 3.0,
+            "mean_duration": 61.5,
+            "failure_causes": {
+              "success": 1
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          },
+          "ground": {
+            "samples": 1,
+            "successes": 1,
+            "three_star_rate": 1.0,
+            "wilson_interval": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "expected_stars": 3.0,
+            "expected_destruction": 100.0,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.0,
+            "lower_tail_stars": 3.0,
+            "mean_duration": 66.25,
+            "failure_causes": {
+              "success": 1
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          },
+          "none": {
+            "samples": 2,
+            "successes": 2,
+            "three_star_rate": 1.0,
+            "wilson_interval": [
+              0.34238022750666547,
+              1
+            ],
+            "expected_stars": 3.0,
+            "expected_destruction": 100.0,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.0,
+            "lower_tail_stars": 3.0,
+            "mean_duration": 63.625,
+            "failure_causes": {
+              "success": 2
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          }
+        }
+      },
+      "heldout": {
+        "samples": 12,
+        "successes": 6,
+        "three_star_rate": 0.5,
+        "wilson_interval": [
+          0.2537815976337112,
+          0.7462184023662888
+        ],
+        "expected_stars": 2.3333333333333335,
+        "expected_destruction": 78.7878787878788,
+        "timeout_rate": 0.0,
+        "catastrophic_rate": 0.08333333333333333,
+        "lower_tail_stars": 1.0,
+        "mean_duration": 63.354166666666664,
+        "failure_causes": {
+          "army_destroyed": 6,
+          "success": 6
+        },
+        "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence.",
+        "by_defender": {
+          "air": {
+            "samples": 6,
+            "successes": 4,
+            "three_star_rate": 0.6666666666666666,
+            "wilson_interval": [
+              0.29999331513839955,
+              0.9032285888942164
+            ],
+            "expected_stars": 2.6666666666666665,
+            "expected_destruction": 84.84848484848486,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.0,
+            "lower_tail_stars": 2.0,
+            "mean_duration": 60.625,
+            "failure_causes": {
+              "army_destroyed": 2,
+              "success": 4
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          },
+          "ground": {
+            "samples": 2,
+            "successes": 0,
+            "three_star_rate": 0.0,
+            "wilson_interval": [
+              0,
+              0.6576197724933345
+            ],
+            "expected_stars": 1.0,
+            "expected_destruction": 54.54545454545455,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.5,
+            "lower_tail_stars": 0.0,
+            "mean_duration": 66.875,
+            "failure_causes": {
+              "army_destroyed": 2
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          },
+          "none": {
+            "samples": 4,
+            "successes": 2,
+            "three_star_rate": 0.5,
+            "wilson_interval": [
+              0.1500389891521544,
+              0.8499610108478456
+            ],
+            "expected_stars": 2.5,
+            "expected_destruction": 81.81818181818181,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.0,
+            "lower_tail_stars": 2.0,
+            "mean_duration": 65.6875,
+            "failure_causes": {
+              "army_destroyed": 2,
+              "success": 2
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          }
+        }
+      }
+    },
+    {
+      "seed": 203,
+      "algorithm": "incumbent_mutation",
+      "candidates": 12,
+      "search_simulations": 48,
+      "search_seconds": 6.21143620001385,
+      "search": {
+        "samples": 4,
+        "successes": 4,
+        "three_star_rate": 1.0,
+        "wilson_interval": [
+          0.5101091635454165,
+          1
+        ],
+        "expected_stars": 3.0,
+        "expected_destruction": 100.0,
+        "timeout_rate": 0.0,
+        "catastrophic_rate": 0.0,
+        "lower_tail_stars": 3.0,
+        "mean_duration": 63.375,
+        "failure_causes": {
+          "success": 4
+        },
+        "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence.",
+        "by_defender": {
+          "air": {
+            "samples": 1,
+            "successes": 1,
+            "three_star_rate": 1.0,
+            "wilson_interval": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "expected_stars": 3.0,
+            "expected_destruction": 100.0,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.0,
+            "lower_tail_stars": 3.0,
+            "mean_duration": 58.5,
+            "failure_causes": {
+              "success": 1
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          },
+          "ground": {
+            "samples": 1,
+            "successes": 1,
+            "three_star_rate": 1.0,
+            "wilson_interval": [
+              0.20654931437724644,
+              0.9999999999999999
+            ],
+            "expected_stars": 3.0,
+            "expected_destruction": 100.0,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.0,
+            "lower_tail_stars": 3.0,
+            "mean_duration": 68.25,
+            "failure_causes": {
+              "success": 1
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          },
+          "none": {
+            "samples": 2,
+            "successes": 2,
+            "three_star_rate": 1.0,
+            "wilson_interval": [
+              0.34238022750666547,
+              1
+            ],
+            "expected_stars": 3.0,
+            "expected_destruction": 100.0,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.0,
+            "lower_tail_stars": 3.0,
+            "mean_duration": 63.375,
+            "failure_causes": {
+              "success": 2
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          }
+        }
+      },
+      "heldout": {
+        "samples": 12,
+        "successes": 7,
+        "three_star_rate": 0.5833333333333334,
+        "wilson_interval": [
+          0.3195113125495559,
+          0.8067396863412393
+        ],
+        "expected_stars": 2.25,
+        "expected_destruction": 78.03030303030303,
+        "timeout_rate": 0.0,
+        "catastrophic_rate": 0.08333333333333333,
+        "lower_tail_stars": 0.5,
+        "mean_duration": 61.5625,
+        "failure_causes": {
+          "success": 7,
+          "army_destroyed": 5
+        },
+        "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence.",
+        "by_defender": {
+          "air": {
+            "samples": 6,
+            "successes": 4,
+            "three_star_rate": 0.6666666666666666,
+            "wilson_interval": [
+              0.29999331513839955,
+              0.9032285888942164
+            ],
+            "expected_stars": 2.5,
+            "expected_destruction": 83.33333333333333,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.0,
+            "lower_tail_stars": 1.0,
+            "mean_duration": 62.041666666666664,
+            "failure_causes": {
+              "army_destroyed": 2,
+              "success": 4
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          },
+          "ground": {
+            "samples": 2,
+            "successes": 0,
+            "three_star_rate": 0.0,
+            "wilson_interval": [
+              0,
+              0.6576197724933345
+            ],
+            "expected_stars": 1.5,
+            "expected_destruction": 50.0,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.0,
+            "lower_tail_stars": 1.0,
+            "mean_duration": 50.0,
+            "failure_causes": {
+              "army_destroyed": 2
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          },
+          "none": {
+            "samples": 4,
+            "successes": 3,
+            "three_star_rate": 0.75,
+            "wilson_interval": [
+              0.30064184258241056,
+              0.9544127391902976
+            ],
+            "expected_stars": 2.25,
+            "expected_destruction": 84.0909090909091,
+            "timeout_rate": 0.0,
+            "catastrophic_rate": 0.25,
+            "lower_tail_stars": 0.0,
+            "mean_duration": 66.625,
+            "failure_causes": {
+              "success": 3,
+              "army_destroyed": 1
+            },
+            "interpretation": "Monte Carlo uncertainty within an uncalibrated approximate model. Wilson interval covers sampling uncertainty only; it is not real-world three-star confidence."
+          }
+        }
+      }
+    }
+  ]
+}

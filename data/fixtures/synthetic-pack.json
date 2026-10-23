@@ -1,0 +1,1000 @@
+{
+  "schema_version": 1,
+  "id": "synthetic-v1",
+  "label": "Synthetic research fixture · NOT live game statistics",
+  "synthetic": true,
+  "definitions": {
+    "barbarian": {
+      "name": "Barbarian",
+      "level": 1,
+      "kind": "troop",
+      "movement": "ground",
+      "preference": "any",
+      "targets": "both",
+      "width": 1,
+      "height": 1,
+      "stats": {
+        "hp": {
+          "value": 180.0,
+          "unit": "hit_points",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/barbarian/hp",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "damage": {
+          "value": 35.0,
+          "unit": "hit_points_per_attack",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/barbarian/damage",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "cadence": {
+          "value": 1.0,
+          "unit": "seconds",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/barbarian/cadence",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "speed": {
+          "value": 2.4,
+          "unit": "tiles_per_second",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/barbarian/speed",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "range": {
+          "value": 1.0,
+          "unit": "tiles",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/barbarian/range",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "housing": {
+          "value": 1.0,
+          "unit": "housing",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/barbarian/housing",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        }
+      }
+    },
+    "archer": {
+      "name": "Archer",
+      "level": 1,
+      "kind": "troop",
+      "movement": "ground",
+      "preference": "any",
+      "targets": "both",
+      "width": 1,
+      "height": 1,
+      "stats": {
+        "hp": {
+          "value": 75.0,
+          "unit": "hit_points",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/archer/hp",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "damage": {
+          "value": 28.0,
+          "unit": "hit_points_per_attack",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/archer/damage",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "cadence": {
+          "value": 1.0,
+          "unit": "seconds",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/archer/cadence",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "speed": {
+          "value": 2.4,
+          "unit": "tiles_per_second",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/archer/speed",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "range": {
+          "value": 4.0,
+          "unit": "tiles",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/archer/range",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "housing": {
+          "value": 1.0,
+          "unit": "housing",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/archer/housing",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        }
+      }
+    },
+    "giant": {
+      "name": "Giant",
+      "level": 1,
+      "kind": "troop",
+      "movement": "ground",
+      "preference": "defense",
+      "targets": "both",
+      "width": 1,
+      "height": 1,
+      "stats": {
+        "hp": {
+          "value": 1100.0,
+          "unit": "hit_points",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/giant/hp",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "damage": {
+          "value": 65.0,
+          "unit": "hit_points_per_attack",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/giant/damage",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "cadence": {
+          "value": 1.8,
+          "unit": "seconds",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/giant/cadence",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "speed": {
+          "value": 1.4,
+          "unit": "tiles_per_second",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/giant/speed",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "range": {
+          "value": 1.0,
+          "unit": "tiles",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/giant/range",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "housing": {
+          "value": 5.0,
+          "unit": "housing",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/giant/housing",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        }
+      }
+    },
+    "balloon": {
+      "name": "Balloon",
+      "level": 1,
+      "kind": "troop",
+      "movement": "air",
+      "preference": "defense",
+      "targets": "both",
+      "width": 1,
+      "height": 1,
+      "stats": {
+        "hp": {
+          "value": 430.0,
+          "unit": "hit_points",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/balloon/hp",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "damage": {
+          "value": 145.0,
+          "unit": "hit_points_per_attack",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/balloon/damage",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "cadence": {
+          "value": 3.0,
+          "unit": "seconds",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/balloon/cadence",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "speed": {
+          "value": 1.2,
+          "unit": "tiles_per_second",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/balloon/speed",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "range": {
+          "value": 1.0,
+          "unit": "tiles",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/balloon/range",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "housing": {
+          "value": 5.0,
+          "unit": "housing",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/balloon/housing",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        }
+      }
+    },
+    "barbarian_king": {
+      "name": "Barbarian King",
+      "level": 1,
+      "kind": "hero",
+      "movement": "ground",
+      "preference": "any",
+      "targets": "both",
+      "width": 1,
+      "height": 1,
+      "stats": {
+        "hp": {
+          "value": 2400.0,
+          "unit": "hit_points",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/barbarian_king/hp",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "damage": {
+          "value": 130.0,
+          "unit": "hit_points_per_attack",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/barbarian_king/damage",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "cadence": {
+          "value": 1.2,
+          "unit": "seconds",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/barbarian_king/cadence",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "speed": {
+          "value": 2.0,
+          "unit": "tiles_per_second",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/barbarian_king/speed",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "range": {
+          "value": 1.0,
+          "unit": "tiles",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/barbarian_king/range",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        }
+      }
+    },
+    "heal": {
+      "name": "Heal",
+      "level": 1,
+      "kind": "spell",
+      "movement": "ground",
+      "preference": "any",
+      "targets": "both",
+      "width": 1,
+      "height": 1,
+      "stats": {
+        "housing": {
+          "value": 2.0,
+          "unit": "housing",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/heal/housing",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "radius": {
+          "value": 4.0,
+          "unit": "tiles",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/heal/radius",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "duration": {
+          "value": 12.0,
+          "unit": "seconds",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/heal/duration",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "power": {
+          "value": 35.0,
+          "unit": "model_specific",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/heal/power",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        }
+      }
+    },
+    "rage": {
+      "name": "Rage",
+      "level": 1,
+      "kind": "spell",
+      "movement": "ground",
+      "preference": "any",
+      "targets": "both",
+      "width": 1,
+      "height": 1,
+      "stats": {
+        "housing": {
+          "value": 2.0,
+          "unit": "housing",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/rage/housing",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "radius": {
+          "value": 4.0,
+          "unit": "tiles",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/rage/radius",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "duration": {
+          "value": 12.0,
+          "unit": "seconds",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/rage/duration",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "power": {
+          "value": 1.7,
+          "unit": "model_specific",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/rage/power",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        }
+      }
+    },
+    "freeze": {
+      "name": "Freeze",
+      "level": 1,
+      "kind": "spell",
+      "movement": "ground",
+      "preference": "any",
+      "targets": "both",
+      "width": 1,
+      "height": 1,
+      "stats": {
+        "housing": {
+          "value": 1.0,
+          "unit": "housing",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/freeze/housing",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "radius": {
+          "value": 4.0,
+          "unit": "tiles",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/freeze/radius",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "duration": {
+          "value": 5.0,
+          "unit": "seconds",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/freeze/duration",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "power": {
+          "value": 0.0,
+          "unit": "model_specific",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/freeze/power",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        }
+      }
+    },
+    "town_hall": {
+      "name": "Town Hall",
+      "level": 1,
+      "kind": "building",
+      "movement": "ground",
+      "preference": "any",
+      "targets": "both",
+      "width": 4,
+      "height": 4,
+      "stats": {
+        "hp": {
+          "value": 2600.0,
+          "unit": "hit_points",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/town_hall/hp",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "damage": {
+          "value": 0.0,
+          "unit": "hit_points_per_attack",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/town_hall/damage",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "cadence": {
+          "value": 1.0,
+          "unit": "seconds",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/town_hall/cadence",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "range": {
+          "value": 0.0,
+          "unit": "tiles",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/town_hall/range",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "splash": {
+          "value": 0.0,
+          "unit": "tiles",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/town_hall/splash",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "projectile_speed": {
+          "value": 14.0,
+          "unit": "tiles_per_second",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/town_hall/projectile_speed",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        }
+      }
+    },
+    "cannon": {
+      "name": "Cannon",
+      "level": 1,
+      "kind": "building",
+      "movement": "ground",
+      "preference": "any",
+      "targets": "ground",
+      "width": 3,
+      "height": 3,
+      "stats": {
+        "hp": {
+          "value": 1100.0,
+          "unit": "hit_points",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/cannon/hp",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "damage": {
+          "value": 85.0,
+          "unit": "hit_points_per_attack",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/cannon/damage",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "cadence": {
+          "value": 1.0,
+          "unit": "seconds",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/cannon/cadence",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "range": {
+          "value": 9.0,
+          "unit": "tiles",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/cannon/range",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "splash": {
+          "value": 0.0,
+          "unit": "tiles",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/cannon/splash",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "projectile_speed": {
+          "value": 14.0,
+          "unit": "tiles_per_second",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/cannon/projectile_speed",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        }
+      }
+    },
+    "archer_tower": {
+      "name": "Archer Tower",
+      "level": 1,
+      "kind": "building",
+      "movement": "ground",
+      "preference": "any",
+      "targets": "both",
+      "width": 3,
+      "height": 3,
+      "stats": {
+        "hp": {
+          "value": 950.0,
+          "unit": "hit_points",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/archer_tower/hp",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "damage": {
+          "value": 70.0,
+          "unit": "hit_points_per_attack",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/archer_tower/damage",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "cadence": {
+          "value": 1.0,
+          "unit": "seconds",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/archer_tower/cadence",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "range": {
+          "value": 10.0,
+          "unit": "tiles",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/archer_tower/range",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "splash": {
+          "value": 0.0,
+          "unit": "tiles",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/archer_tower/splash",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "projectile_speed": {
+          "value": 14.0,
+          "unit": "tiles_per_second",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/archer_tower/projectile_speed",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        }
+      }
+    },
+    "mortar": {
+      "name": "Mortar",
+      "level": 1,
+      "kind": "building",
+      "movement": "ground",
+      "preference": "any",
+      "targets": "ground",
+      "width": 3,
+      "height": 3,
+      "stats": {
+        "hp": {
+          "value": 900.0,
+          "unit": "hit_points",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/mortar/hp",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "damage": {
+          "value": 110.0,
+          "unit": "hit_points_per_attack",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/mortar/damage",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "cadence": {
+          "value": 4.0,
+          "unit": "seconds",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/mortar/cadence",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "range": {
+          "value": 12.0,
+          "unit": "tiles",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/mortar/range",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "splash": {
+          "value": 2.0,
+          "unit": "tiles",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/mortar/splash",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "projectile_speed": {
+          "value": 14.0,
+          "unit": "tiles_per_second",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/mortar/projectile_speed",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        }
+      }
+    },
+    "air_defense": {
+      "name": "Air Defense",
+      "level": 1,
+      "kind": "building",
+      "movement": "ground",
+      "preference": "any",
+      "targets": "air",
+      "width": 3,
+      "height": 3,
+      "stats": {
+        "hp": {
+          "value": 1000.0,
+          "unit": "hit_points",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/air_defense/hp",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "damage": {
+          "value": 135.0,
+          "unit": "hit_points_per_attack",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/air_defense/damage",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "cadence": {
+          "value": 1.5,
+          "unit": "seconds",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/air_defense/cadence",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "range": {
+          "value": 10.0,
+          "unit": "tiles",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/air_defense/range",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "splash": {
+          "value": 0.0,
+          "unit": "tiles",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/air_defense/splash",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "projectile_speed": {
+          "value": 14.0,
+          "unit": "tiles_per_second",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/air_defense/projectile_speed",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        }
+      }
+    },
+    "storage": {
+      "name": "Storage",
+      "level": 1,
+      "kind": "building",
+      "movement": "ground",
+      "preference": "any",
+      "targets": "both",
+      "width": 3,
+      "height": 3,
+      "stats": {
+        "hp": {
+          "value": 1200.0,
+          "unit": "hit_points",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/storage/hp",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "damage": {
+          "value": 0.0,
+          "unit": "hit_points_per_attack",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/storage/damage",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "cadence": {
+          "value": 1.0,
+          "unit": "seconds",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/storage/cadence",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "range": {
+          "value": 0.0,
+          "unit": "tiles",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/storage/range",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "splash": {
+          "value": 0.0,
+          "unit": "tiles",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/storage/splash",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "projectile_speed": {
+          "value": 14.0,
+          "unit": "tiles_per_second",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/storage/projectile_speed",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        }
+      }
+    },
+    "wall": {
+      "name": "Wall",
+      "level": 1,
+      "kind": "wall",
+      "movement": "ground",
+      "preference": "any",
+      "targets": "both",
+      "width": 1,
+      "height": 1,
+      "stats": {
+        "hp": {
+          "value": 500.0,
+          "unit": "hit_points",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/wall/hp",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        }
+      }
+    },
+    "bomb": {
+      "name": "Bomb",
+      "level": 1,
+      "kind": "trap",
+      "movement": "ground",
+      "preference": "any",
+      "targets": "both",
+      "width": 1,
+      "height": 1,
+      "stats": {
+        "damage": {
+          "value": 120.0,
+          "unit": "hit_points_per_attack",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/bomb/damage",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        },
+        "radius": {
+          "value": 2.5,
+          "unit": "tiles",
+          "source": "Original synthetic test fixture; not game data",
+          "source_id": "fixtures/synthetic-v1/bomb/radius",
+          "last_verified": "2026-10-23",
+          "game_version": "synthetic-v1",
+          "effective_date": "2026-10-23",
+          "confidence": "assumed"
+        }
+      }
+    }
+  }
+}

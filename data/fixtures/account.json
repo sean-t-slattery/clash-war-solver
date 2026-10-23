@@ -1,0 +1,31 @@
+{
+  "id": "demo-account",
+  "name": "Research account",
+  "tag": "DEMO",
+  "town_hall": 8,
+  "troops": {
+    "barbarian": 1,
+    "archer": 1,
+    "giant": 1,
+    "balloon": 1
+  },
+  "spells": {
+    "heal": 1,
+    "rage": 1,
+    "freeze": 1
+  },
+  "heroes": {
+    "barbarian_king": 1
+  },
+  "pets": {},
+  "equipment": {},
+  "siege": {},
+  "super_troops": [],
+  "housing": 80,
+  "spell_capacity": 4,
+  "clan_castle_capacity": 0,
+  "reinforcements": {},
+  "restrictions": [],
+  "boosts": {},
+  "provenance": "synthetic_fixture"
+}

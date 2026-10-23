@@ -1,0 +1,16 @@
+{
+  "id": "demo-army",
+  "name": "Ground entry",
+  "troops": {
+    "giant": 8,
+    "archer": 20,
+    "barbarian": 20
+  },
+  "spells": {
+    "heal": 1,
+    "rage": 1
+  },
+  "heroes": [
+    "barbarian_king"
+  ]
+}

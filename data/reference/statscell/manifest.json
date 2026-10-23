@@ -1,0 +1,18 @@
+{
+  "source": "https://raw.githubusercontent.com/Statscell/clash-of-clans-data/7c30a6da56a337aee9d6f2b4e0e6be3a5861b350/output/troopUpgradeStats.json",
+  "revision": "7c30a6da56a337aee9d6f2b4e0e6be3a5861b350",
+  "source_commit_time": "2026-04-30T14:56:15Z",
+  "retrieved": "2026-10-23T17:58:37.945191+00:00",
+  "license": "MIT (upstream code/data repository)",
+  "sha256": "785b9206b2ccc0a40ab3a1b7d003eb0bb3b909de2f0bda5b90f3d42b01271ff9",
+  "source_objects": 147,
+  "normalized_dps_records": 1649,
+  "simulation_ready": false,
+  "gaps": [
+    "No verified effective game patch",
+    "No independent value verification",
+    "Missing per-attack damage / cadence conversion",
+    "Incomplete HP, movement and special behavioral rules"
+  ],
+  "policy": "Staging only. Unknown verification dates remain null; do not auto-promote into combat packs."
+}

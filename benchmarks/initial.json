@@ -1,0 +1,61 @@
+{
+  "engine": "approx-entity-0.1",
+  "fixture": "synthetic-v1",
+  "runs": 10,
+  "median_seconds": 0.2531642000103602,
+  "simulations_per_second": 4.086386705235626,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "outcomes": [
+    {
+      "seed": 0,
+      "stars": 3,
+      "destruction": 100.0
+    },
+    {
+      "seed": 1,
+      "stars": 3,
+      "destruction": 100.0
+    },
+    {
+      "seed": 2,
+      "stars": 3,
+      "destruction": 100.0
+    },
+    {
+      "seed": 3,
+      "stars": 3,
+      "destruction": 100.0
+    },
+    {
+      "seed": 4,
+      "stars": 3,
+      "destruction": 100.0
+    },
+    {
+      "seed": 5,
+      "stars": 3,
+      "destruction": 100.0
+    },
+    {
+      "seed": 6,
+      "stars": 3,
+      "destruction": 100.0
+    },
+    {
+      "seed": 7,
+      "stars": 3,
+      "destruction": 100.0
+    },
+    {
+      "seed": 8,
+      "stars": 3,
+      "destruction": 100.0
+    },
+    {
+      "seed": 9,
+      "stars": 3,
+      "destruction": 100.0
+    }
+  ]
+}
